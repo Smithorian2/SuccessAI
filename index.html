@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SuccessAI - AI-Powered OKR & Performance Management</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Add Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <header class="header">
+        <nav class="nav">
+            <div class="logo">
+                <a href="index.html">
+                    <img src="successai-logo.png" alt="SuccessAI Logo" class="logo-img">
+                </a>
+            </div>
+            <div class="nav-links">
+                <!-- Product Dropdown -->
+                <div class="dropdown">
+                    <a href="#" class="dropdown-trigger">
+                        <i class="fas fa-cube"></i> Product <i class="fas fa-chevron-down"></i>
+                    </a>
+                    <div class="dropdown-content">
+                        <a href="employees.html"><i class="fas fa-users"></i> Employees</a>
+                        <a href="ai-agents.html"><i class="fas fa-robot"></i> AI Agents</a>
+                    </div>
+                </div>
+
+                <!-- Solutions Dropdown -->
+                <div class="dropdown">
+                    <a href="#" class="dropdown-trigger">
+                        <i class="fas fa-lightbulb"></i> Solutions <i class="fas fa-chevron-down"></i>
+                    </a>
+                    <div class="dropdown-content">
+                        <a href="#"><i class="fas fa-chart-line"></i> For Performance Teams</a>
+                        <a href="#"><i class="fas fa-user-tie"></i> For HR & People Ops</a>
+                        <a href="#"><i class="fas fa-cogs"></i> For AI and Automation Teams</a>
+                    </div>
+                </div>
+
+                <!-- Resources Dropdown -->
+                <div class="dropdown">
+                    <a href="#" class="dropdown-trigger">
+                        <i class="fas fa-book"></i> Resources <i class="fas fa-chevron-down"></i>
+                    </a>
+                    <div class="dropdown-content">
+                        <a href="#"><i class="fas fa-blog"></i> Blog</a>
+                        <a href="#"><i class="fas fa-video"></i> Webinars</a>
+                        <a href="#"><i class="fas fa-playbook"></i> OKR Playbook</a>
+                    </div>
+                </div>
+
+                <!-- Pricing -->
+                <a href="#pricing"><i class="fas fa-tag"></i> Pricing</a>
+
+                <!-- Company Dropdown -->
+                <div class="dropdown">
+                    <a href="#" class="dropdown-trigger">
+                        <i class="fas fa-building"></i> Company <i class="fas fa-chevron-down"></i>
+                    </a>
+                    <div class="dropdown-content">
+                        <a href="#"><i class="fas fa-info-circle"></i> About Us</a>
+                        <a href="#"><i class="fas fa-users"></i> Team</a>
+                        <a href="#"><i class="fas fa-briefcase"></i> Careers</a>
+                        <a href="#"><i class="fas fa-question-circle"></i> Help Center</a>
+                    </div>
+                </div>
+            </div>
+            <div class="nav-buttons">
+                <button class="btn-nav btn-nav-primary"><i class="fas fa-rocket"></i> Get Started</button>
+                <button class="btn-nav btn-nav-secondary"><i class="fas fa-sign-in-alt"></i> Login</button>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Section 1: Hero -->
+        <section class="hero">
+            <div class="hero-content">
+                <h1>Reimagine Performance Management for Humans and AI</h1>
+                <p>Transform how your organisation sets, tracks, and delivers outcomes — with AI-powered OKRs for the modern workforce.</p>
+                <div class="cta-form">
+                    <div class="input-group">
+                        <i class="fas fa-envelope"></i>
+                        <input type="email" placeholder="Enter work email">
+                    </div>
+                    <button class="btn-primary"><i class="fas fa-rocket"></i> Get Started</button>
+                </div>
+                <div class="hero-stats">
+                    <div class="stat">
+                        <i class="fas fa-users"></i>
+                        <span>10,000+</span>
+                        <p>Organizations</p>
+                    </div>
+                    <div class="stat">
+                        <i class="fas fa-chart-line"></i>
+                        <span>40%</span>
+                        <p>Performance Boost</p>
+                    </div>
+                    <div class="stat">
+                        <i class="fas fa-clock"></i>
+                        <span>50%</span>
+                        <p>Time Saved</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section 2: Video Demo -->
+        <section class="video-demo">
+            <div class="video-content">
+                <h2><i class="fas fa-play-circle"></i> See SuccessAI in Action</h2>
+                <p>Watch how our AI-powered platform transforms performance management and drives organizational success.</p>
+                <div class="video-container">
+                    <div class="video-wrapper">
+                        <video 
+                            id="demo-video" 
+                            poster="https://placehold.co/1280x720/2563eb/ffffff?text=SuccessAI+Demo" 
+                            controls 
+                            playsinline
+                            preload="metadata"
+                        >
+                            <source src="your-video.mp4" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
+                        <div class="video-overlay">
+                            <button class="play-button" id="play-button">
+                                <i class="fas fa-play"></i>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="video-features">
+                        <div class="video-feature">
+                            <i class="fas fa-bolt"></i>
+                            <h3>Quick Setup</h3>
+                            <p>Get started in minutes with our intuitive interface</p>
+                        </div>
+                        <div class="video-feature">
+                            <i class="fas fa-chart-line"></i>
+                            <h3>Real-Time Analytics</h3>
+                            <p>Track performance metrics in real-time</p>
+                        </div>
+                        <div class="video-feature">
+                            <i class="fas fa-robot"></i>
+                            <h3>AI-Powered</h3>
+                            <p>Leverage AI for smart goal setting and tracking</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section 3: Feature 1 -->
+        <section class="feature" id="features">
+            <div class="feature-content">
+                <div class="feature-image">
+                    <img src="https://placehold.co/600x400/2563eb/ffffff?text=AI+OKR+Generation" alt="AI-Powered OKR Generation">
+                    <div class="feature-badge">
+                        <i class="fas fa-magic"></i>
+                        AI-Powered
+                    </div>
+                </div>
+                <div class="feature-text">
+                    <h2><i class="fas fa-brain"></i> AI-Powered OKR Generation</h2>
+                    <p>Our advanced AI analyzes your organization's goals and automatically generates personalized, tier-based OKRs that align perfectly with your strategic vision. Save time and ensure consistency across all levels.</p>
+                    <ul class="feature-list">
+                        <li><i class="fas fa-check-circle"></i> Automated goal alignment</li>
+                        <li><i class="fas fa-check-circle"></i> Smart progress tracking</li>
+                        <li><i class="fas fa-check-circle"></i> Real-time adjustments</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section 4: Feature 2 -->
+        <section class="feature feature-reverse">
+            <div class="feature-content">
+                <div class="feature-text">
+                    <h2><i class="fas fa-chart-bar"></i> Real-Time Performance Tracking</h2>
+                    <p>Monitor progress in real-time with intuitive dashboards that provide actionable insights. Track both human and AI performance metrics in one unified view, making data-driven decisions easier than ever.</p>
+                    <ul class="feature-list">
+                        <li><i class="fas fa-check-circle"></i> Live performance metrics</li>
+                        <li><i class="fas fa-check-circle"></i> Customizable dashboards</li>
+                        <li><i class="fas fa-check-circle"></i> Automated reporting</li>
+                    </ul>
+                </div>
+                <div class="feature-image">
+                    <img src="https://placehold.co/600x400/1e40af/ffffff?text=Performance+Dashboard" alt="Real-Time Performance Tracking">
+                    <div class="feature-badge">
+                        <i class="fas fa-chart-line"></i>
+                        Real-Time
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section 5: Feature 3 -->
+        <section class="feature">
+            <div class="feature-content">
+                <div class="feature-image">
+                    <img src="https://placehold.co/600x400/2563eb/ffffff?text=Automated+Updates" alt="Automated Progress Updates">
+                    <div class="feature-badge">
+                        <i class="fas fa-robot"></i>
+                        Automated
+                    </div>
+                </div>
+                <div class="feature-text">
+                    <h2><i class="fas fa-sync"></i> Automated Progress Updates</h2>
+                    <p>Let our AI handle the tedious work of tracking and reporting. Automatic progress updates keep everyone informed and focused on what matters most - achieving results.</p>
+                    <ul class="feature-list">
+                        <li><i class="fas fa-check-circle"></i> Smart notifications</li>
+                        <li><i class="fas fa-check-circle"></i> Automated reports</li>
+                        <li><i class="fas fa-check-circle"></i> Progress insights</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section 6: Feature 4 -->
+        <section class="feature feature-reverse">
+            <div class="feature-content">
+                <div class="feature-text">
+                    <h2><i class="fas fa-chart-pie"></i> Intelligent Performance Analytics</h2>
+                    <p>Gain deep insights into your organization's performance with AI-powered analytics. Identify patterns, predict outcomes, and make informed decisions to drive continuous improvement.</p>
+                    <ul class="feature-list">
+                        <li><i class="fas fa-check-circle"></i> Predictive analytics</li>
+                        <li><i class="fas fa-check-circle"></i> Performance trends</li>
+                        <li><i class="fas fa-check-circle"></i> Actionable insights</li>
+                    </ul>
+                </div>
+                <div class="feature-image">
+                    <img src="https://placehold.co/600x400/1e40af/ffffff?text=Analytics+Dashboard" alt="Intelligent Performance Analytics">
+                    <div class="feature-badge">
+                        <i class="fas fa-chart-pie"></i>
+                        Analytics
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section 6-7: CTA and Trust -->
+        <section class="cta-section">
+            <div class="cta-content">
+                <h2><i class="fas fa-rocket"></i> Ready to Transform Your Organization?</h2>
+                <p>Join forward-thinking companies that are revolutionizing their performance management with AI.</p>
+                <button class="btn-primary"><i class="fas fa-phone-alt"></i> Speak to Sales</button>
+                
+                <div class="trust-elements">
+                    <div class="ratings">
+                        <div class="stars">★★★★★</div>
+                        <p>4.9/5 from 500+ reviews</p>
+                    </div>
+                    <div class="user-count">
+                        <i class="fas fa-users"></i>
+                        <p>Trusted by 10,000+ organizations</p>
+                    </div>
+                    <div class="testimonial">
+                        <i class="fas fa-quote-left"></i>
+                        <p>"SuccessAI has transformed how we manage performance. The AI-driven insights have been game-changing."</p>
+                        <p class="author">- Sarah Johnson, CTO at TechCorp</p>
+                    </div>
+                    <div class="logos">
+                        <img src="https://placehold.co/100x50/2563eb/ffffff?text=Company+1" alt="Company Logo">
+                        <img src="https://placehold.co/100x50/1e40af/ffffff?text=Company+2" alt="Company Logo">
+                        <img src="https://placehold.co/100x50/2563eb/ffffff?text=Company+3" alt="Company Logo">
+                        <img src="https://placehold.co/100x50/1e40af/ffffff?text=Company+4" alt="Company Logo">
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3><i class="fas fa-robot"></i> SuccessAI</h3>
+                <p>AI-Powered Performance Management</p>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-linkedin"></i></a>
+                    <a href="#"><i class="fab fa-github"></i></a>
+                </div>
+            </div>
+            <div class="footer-section">
+                <h4><i class="fas fa-cube"></i> Product</h4>
+                <a href="#features"><i class="fas fa-star"></i> Features</a>
+                <a href="#pricing"><i class="fas fa-tag"></i> Pricing</a>
+                <a href="#demo"><i class="fas fa-play-circle"></i> Demo</a>
+            </div>
+            <div class="footer-section">
+                <h4><i class="fas fa-building"></i> Company</h4>
+                <a href="#about"><i class="fas fa-info-circle"></i> About</a>
+                <a href="#careers"><i class="fas fa-briefcase"></i> Careers</a>
+                <a href="#contact"><i class="fas fa-envelope"></i> Contact</a>
+            </div>
+            <div class="footer-section">
+                <h4><i class="fas fa-shield-alt"></i> Legal</h4>
+                <a href="#privacy"><i class="fas fa-lock"></i> Privacy</a>
+                <a href="#terms"><i class="fas fa-file-contract"></i> Terms</a>
+                <a href="#security"><i class="fas fa-shield-alt"></i> Security</a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>© 2024 SuccessAI. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html> 
